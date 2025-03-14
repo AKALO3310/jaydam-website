@@ -1,0 +1,89 @@
+.parent{
+    height: 200px;
+    width: 100%;
+    background-color: yellow;
+    margin: auto;
+    float: left;
+
+}
+.parent .head{
+    width: 100%;
+    height: 200px;
+    background-color:gold;
+    margin-top: 20px;
+}
+.parent .navigation{
+    width: 100%;
+    height: 50px;
+    background-color: greenyellow;
+    background-position: center;
+    align-items: center;
+    margin-top: 2px;
+    vertical-align: baseline;
+    justify-items: baseline;
+    padding: auto;
+}
+.navigation ol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-right: auto;
+}
+.navigation ol li:hover{
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 2px;
+    transition-delay: 0s;
+    background-color: yellow;
+}
+
+.parent .content{
+    width: auto;
+    height: auto;
+    background-color: blueviolet;
+    margin-top: 1px;
+}
+.parent .footer{
+    width: 100%;
+    height: 90%;
+    background-color: brown;
+    margin-top: 20px;
+}
+.parent .head .logo{
+    height: 150px;
+    width: 200px;
+    float: left; 
+}
+.parent .logo{
+    height: 150px;
+    width: 300px;
+}
+.parent .head .mid-head{
+    width :60%;
+    height: 160px;
+    float: left;
+    font-size: 20px;
+    margin-left: auto;
+}
+.parent .head .right-top{
+    width: 20%;
+    height: 100px;
+    float: right;
+    background-color: yellow;
+}
+.parent .content .img1{
+    margin-left: 5px;
+    margin-right: 70%;
+}
+.action{
+    width: 100%;
+    background-color: aquamarine;
+    margin: auto;
+    padding: 10px;
+    height: 100%;
+}
+.logo {
+    width: 70%;
+    height: 150px;
+}
